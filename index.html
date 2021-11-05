@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review Project</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <main>
+      <section class="container">
+        <!-- title -->
+        <div class="title">
+          <h2>Our Reviews</h2>
+          <div class="underline"></div>
+        </div>
+        <!-- review -->
+        <article class="review">
+          <div class="img-container">
+            <img src="image/image1.png" id="person-img" alt="" />
+          </div>
+          <h4 id="author">Sara Jones</h4>
+          <p id="job">UX Designer</p>
+          <p id="info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consequuntur rerum neque doloribus quos doloremque ad ipsum odit ea!
+            Quas repellat sed animi repudiandae, facere et fugit ex deserunt
+            aliquid libero?
+          </p>
+          <!-- prev next buttons -->
+          <div class="button-container">
+            <button class="prev-btn">
+              <div>
+                <!-- <i class="fas fa-chevron-left"></i> -->
+              </div>
+            </button>
+            <button class="next-btn">
+              <!-- <i class="fas fa-chevron-right"></i> -->
+            </button>
+          </div>
+          <!-- random button -->
+          <button class="modal-btn">suprise me!</button>
+
+          <div class="modal hidden">
+            <button class="close-btn">&times;</button>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequuntur rerum neque doloribus quos doloremque ad ipsum odit
+              ea! Quas repellat sed animi repudiandae, facere et fugit ex
+              deserunt aliquid libero?
+            </p>
+          </div>
+          <div class="overlay hidden"></div>
+        </article>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
